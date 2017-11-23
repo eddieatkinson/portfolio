@@ -1,0 +1,191 @@
+.nav {
+  background-color: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  z-index: 2;
+  margin-top: -3px;
+}
+.my-name{
+  display: none;
+  color: gray;
+}
+.text-intro{
+  position: relative;
+  /*margin: auto;*/
+  margin-left: 50vw;
+  /*width: 100%;*/
+  color: #FFF;
+  /*border: 5px solid white;*/
+  
+  /*width: 48vw;*/
+  /*height: 450px;*/
+  /*display: inline-block;*/
+  /*background-color: white;*/
+  /*float: left;*/
+}
+#typed-text{
+  margin-top: 20px;
+  position: absolute;
+  top: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  left: -262px;
+  /*left: 125px;*/
+}
+.image-intro {
+  /*position: relative;*/
+  /*float: right;*/
+  display: inline-block;
+  height: 450px;
+  width: 100vw;
+  background-image: url("../images/honey_bee_entrance.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 -15px;
+  z-index: -1;
+}
+.about-paragraph{
+	font-size: 20px;
+	padding: 35px;
+}
+
+.bee-1{
+  /*position: absolute;*/
+  /*top: 3px;*/
+  /*width: 100px;*/
+  height: 450px;
+  background-image: url("../images/honeyBee.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*margin: 0 -15px;*/
+  z-index: 5;
+}
+
+.bee-2{
+  /*position: absolute;*/
+  /*top: 30px;*/
+  /*width: 100px;*/
+  height: 450px;
+  background-image: url("../images/honeyBee8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*margin: 0 -15px;*/
+  z-index: 5;
+}
+
+.bee-3{
+  /*position: absolute;*/
+  /*top: 30px;*/
+  /*width: 100px;*/
+  height: 450px;
+  background-image: url("../images/honeyBee3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*margin: 0 -15px;*/
+  z-index: 5;
+}
+.bee-4{
+  /*position: absolute;*/
+  /*top: 30px;*/
+  /*width: 100px;*/
+  height: 450px;
+  background-image: url("../images/honeyBee9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*margin: 0 -15px;*/
+  z-index: 5;
+}
+.bee-5{
+  /*position: absolute;*/
+  /*top: 30px;*/
+  /*width: 100px;*/
+  height: 450px;
+  background-image: url("../images/honeyBee5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*margin: 0 -15px;*/
+  z-index: 5;
+}
+.bee-6{
+  /*position: absolute;*/
+  /*top: 30px;*/
+  /*width: 100px;*/
+  height: 450px;
+  background-image: url("../images/honeyBee6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*margin: 0 -15px;*/
+  z-index: 5;
+}
+.bee-7{
+  /*position: absolute;*/
+  /*top: 30px;*/
+  /*width: 100px;*/
+  height: 450px;
+  background-image: url("../images/honeyBee10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*margin: 0 -15px;*/
+  z-index: 5;
+}
+
+#about {
+  float: right;
+  /*border: 15px solid white;*/
+  width: 250px;
+  margin: 35px;
+  /*margin-top: -140px;*/
+  /*border-radius: 50%;*/
+  /*z-index: 5;*/
+}
+
+.menu li {
+  display: inline-block;
+  color: gray;
+  padding: 20px;
+}
+
+li.selected {
+  color: #98FB98;
+}
+
+#portfolio{
+	background-color: #F1F8FE;
+	/*background-size: contain;*/
+}
+
+.skills{
+  display: none;
+}
+
+.skills img{
+  margin-top: 15px;
+	width: 90px;
+  height: 90px;
+	/*margin: auto;*/
+}
+
+.skills > div{
+	text-align: center;
+	padding: 25px;
+	border: 1px solid grey;
+	height: 225px;
+}
+
+.skills p{
+  /*line-height: 20px;*/
+  margin-top: 15px;
+	color: grey;
+}
+
+.tech a{
+  display: none;
+}
+
+/*.typed-cursor, .typed-text{
+  position: absolute;
+  top: -300px;
+  display: none;
+}*/
+
+
+/*# sourceMappingURL=styles.css.map */
