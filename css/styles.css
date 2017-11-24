@@ -153,8 +153,9 @@ li.selected {
 	/*background-size: contain;*/
 }
 
-.skills{
+.skills, .skills > div{
   display: none;
+  /*visibility: hidden;*/
 }
 
 .skills img{

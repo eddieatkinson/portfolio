@@ -52,6 +52,16 @@ $(document).ready(()=>{
 		if($(document).scrollTop() > $('.empty').offset().top - $(window).height() + 35){
 			console.log("Made it!");
 			$('.skills').fadeIn('slow');
+			$('.javascript').fadeIn('slow');
+			setTimeout(function(){ $('.react').fadeIn('slow'); }, 150);
+			setTimeout(function(){ $('.python').fadeIn('slow'); }, 300);
+			setTimeout(function(){ $('.express').fadeIn('slow'); }, 450);
+			setTimeout(function(){ $('.node').fadeIn('slow'); }, 600);
+			setTimeout(function(){ $('.html').fadeIn('slow'); }, 750);
+			setTimeout(function(){ $('.css').fadeIn('slow'); }, 900);
+			setTimeout(function(){ $('.mysql').fadeIn('slow'); }, 1050);
+			setTimeout(function(){ $('.github').fadeIn('slow'); }, 1200);
+			
 		}
 	});
 	// if($(document).scrollTop() < $('#about').offset().top){
