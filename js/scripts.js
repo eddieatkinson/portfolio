@@ -33,44 +33,23 @@ $(document).ready(()=>{
 		// 	$('.hamburger-menu').toggle();
 		// }
 	});
-	// if($(document).scrollTop() == $('#about').offset().top){
-	// 	console.log("You made it!");
-	// }
+	
+	// Reveal skills on scroll
+	window.sr = ScrollReveal({duration: 2000});
+	sr.reveal('.tech', 50);
+
+	// Reveal name when scrolled down.
 	$(document).scroll(()=>{
-		// console.log(`Current scroll position is ${$(document).scrollTop()}`)
-		// console.log(`About section is ${$('#about').offset().top}`);
 		if($(document).scrollTop() > $('#about').offset().top - 50){
-			// console.log($('#about').offset().top);
-			$('.my-name').show();
+			$('.my-name').fadeIn();
 		}else{
-			$('.my-name').hide();
+			$('.my-name').fadeOut();
 		}
 
 		console.log(`document: ${$(document).scrollTop()}`);
 		console.log(`skills: ${$('.empty').offset().top - $(window).height()}`);
-
-		if($(document).scrollTop() > $('.empty').offset().top - $(window).height() + 35){
-			console.log("Made it!");
-			$('.skills').fadeIn('slow');
-			$('.javascript').fadeIn('slow');
-			setTimeout(function(){ $('.react').fadeIn('slow'); }, 150);
-			setTimeout(function(){ $('.python').fadeIn('slow'); }, 300);
-			setTimeout(function(){ $('.express').fadeIn('slow'); }, 450);
-			setTimeout(function(){ $('.node').fadeIn('slow'); }, 600);
-			setTimeout(function(){ $('.html').fadeIn('slow'); }, 750);
-			setTimeout(function(){ $('.css').fadeIn('slow'); }, 900);
-			setTimeout(function(){ $('.mysql').fadeIn('slow'); }, 1050);
-			setTimeout(function(){ $('.github').fadeIn('slow'); }, 1200);
-			
-		}
 	});
-	// if($(document).scrollTop() < $('#about').offset().top){
-	// 	console.log($('#about').offset().top);
-	// }
-	// var typed = new Typed('.typing', {
- //  		strings: ["First sentence.", "Second sentence."],
- //  		typeSpeed: 30
- //  	});
+
 	var posOrNegArray = [-1, 1]
 	var posOrNeg1 = posOrNegArray[Math.floor(Math.random() * 2)]
 	var randVar1 = Math.random() * 80 * posOrNeg1;
@@ -109,7 +88,7 @@ $(document).ready(()=>{
 	});
 
 	$('#typed-text').typeIt({
-		strings: ["My name is Eddie.", "I'm a Full Stack Web Developer in Atlanta, GA.",
+		strings: ["My name is Eddie.", "I'm a Full Stack Web Developer in Atlanta.",
 			"(And I used to study honey bees.)"],
 		speed: 50,
 		autoStart: false
