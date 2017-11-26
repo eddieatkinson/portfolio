@@ -172,7 +172,7 @@ li.selected {
 .skills > div{
 	text-align: center;
 	padding: 25px;
-	border: 1px solid grey;
+	/*border: 1px solid grey;*/
 	height: 225px;
 }
 
@@ -181,6 +181,23 @@ li.selected {
   margin-top: 15px;
 	color: grey;
 }
+
+.javascript, .react, .python{
+  border-bottom: .5px solid grey;
+}
+
+.javascript, .express, .css{
+  border-right: .5px solid grey;
+}
+
+.python, .html, .github{
+  border-left: .5px solid grey;
+}
+
+.css, .mysql, .github{
+  border-top: .5px solid grey;
+}
+
 
 .tech a{
   display: none;
