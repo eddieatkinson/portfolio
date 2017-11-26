@@ -145,7 +145,7 @@
 }
 
 li.selected {
-  color: #98FB98;
+  color: #C9DFF9;
 }
 
 #portfolio{
@@ -198,16 +198,17 @@ li.selected {
   border-top: .5px solid grey;
 }
 
-
 .tech a{
   display: none;
+  color: grey;
+  /*border: transparent;*/
+  border: .5px solid transparent;
+  border-radius: 20px;
+  padding: 10px;
+  transition: border 1s;
 }
 
-/*.typed-cursor, .typed-text{
-  position: absolute;
-  top: -300px;
-  display: none;
-}*/
-
-
-/*# sourceMappingURL=styles.css.map */
+.tech a:hover{
+  border: .5px solid #C9DFF9;
+  text-decoration: none;
+}

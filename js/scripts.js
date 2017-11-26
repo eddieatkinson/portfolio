@@ -46,8 +46,8 @@ $(document).ready(()=>{
 			$('.my-name').fadeOut();
 		}
 
-		console.log(`document: ${$(document).scrollTop()}`);
-		console.log(`skills: ${$('.empty').offset().top - $(window).height()}`);
+		// console.log(`document: ${$(document).scrollTop()}`);
+		// console.log(`skills: ${$('.empty').offset().top - $(window).height()}`);
 	});
 
 	var posOrNegArray = [-1, 1]
@@ -96,8 +96,8 @@ $(document).ready(()=>{
 
 	$('.tech').hover(function(){
 		$(this).children('a').fadeIn();
-	},
-	function(){
-		$(this).children('a').fadeOut();
+		},
+		function(){
+			$(this).children('a').fadeOut();
 	});
 });
