@@ -198,13 +198,18 @@ li.selected {
   border-top: .5px solid grey;
 }
 
+@media only screen and (max-width: 991){
+  /*.javascript*/
+}
+
 .tech a{
   display: none;
   color: grey;
   /*border: transparent;*/
   border: .5px solid transparent;
-  border-radius: 20px;
-  padding: 10px;
+  margin-top: 5px;
+  border-radius: 15px;
+  padding: 7px;
   transition: border 1s;
 }
 
