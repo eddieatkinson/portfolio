@@ -1,13 +1,21 @@
-.nav {
+.nav{
   background-color: rgba(255, 255, 255, 0.7);
   position: fixed;
   z-index: 2;
   margin-top: -3px;
 }
+
 .my-name{
+  /*text-decoration: none;*/
+  margin-left: 10%;
   display: none;
   color: gray;
 }
+
+h3.section{
+  color: grey;
+}
+
 .text-intro{
   position: relative;
   /*margin: auto;*/
@@ -40,7 +48,7 @@
   background-image: url("../images/honey_bee_entrance.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 -15px;
+  /*margin: 0 -15px;*/
   z-index: -1;
 }
 .about-paragraph{
@@ -148,8 +156,10 @@ li.selected {
   color: #C9DFF9;
 }
 
-#portfolio{
+#portfolio, .footer{
 	background-color: #F1F8FE;
+  /*background-size: 100vw;*/
+  padding: 0;
 	/*background-size: contain;*/
 }
 
@@ -222,11 +232,19 @@ li.selected {
 
 .tech a:hover{
   border: .5px solid #C9DFF9;
+  /*text-decoration: none;*/
+}
+
+a:hover{
   text-decoration: none;
 }
 
 .fa{
   color: grey;
+}
+
+#contact, #portfolio, .copyright{
+  padding: 25px;
 }
 
 #contact a{
