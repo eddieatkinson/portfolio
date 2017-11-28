@@ -198,7 +198,14 @@ li.selected {
   border-top: .5px solid grey;
 }
 
-@media only screen and (max-width: 991){
+@media only screen and (max-width: 991px){
+  .javascript, .react, .python, .express, .node, .html, .css, .mysql, .github{
+    border: none;
+  }
+
+  .about-paragraph, #typed-text{
+    font-size: 30px;
+  }
   /*.javascript*/
 }
 
