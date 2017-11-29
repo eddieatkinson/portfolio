@@ -11,9 +11,9 @@ $(document).ready(()=>{
 		// 	$('.hamburger-menu').toggle();
 		// }
 	});
-	$(".portfolio-btn").click(function() {
+	$(".projects-btn").click(function() {
 		$('html, body').animate({
-			scrollTop: $("#portfolio").offset().top
+			scrollTop: $("#projects").offset().top
 		}, 1200);
 		$('.menu li').removeClass('selected');
 		$(this).children().addClass('selected');
@@ -41,6 +41,14 @@ $(document).ready(()=>{
 	// Reveal name when scrolled down.
 	$(document).scroll(()=>{
 		if($(document).scrollTop() > $('#about').offset().top - 50){
+			console.log('Time to disappear!');
+			$('.nav').css("background-color", "rgba(255, 255, 255, 0)").fadeIn();
+			$('.option').css({"border": ".5px solid grey", "background-color": "rgba(255, 255, 255, 0.7)", "border-radius": "15px"}).fadeIn();;
+		}else{
+			$('.nav').css("background-color", "rgba(255, 255, 255, 0.7)");
+			$('.option').css({"border": "none", "background-color": "rgba(255, 255, 255, 0)"});
+		}
+		if($(document).scrollTop() > $('#projects').offset().top - 50){
 			$('.my-name').fadeIn();
 		}else{
 			$('.my-name').fadeOut();

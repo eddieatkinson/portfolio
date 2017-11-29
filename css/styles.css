@@ -5,6 +5,10 @@
   margin-top: -3px;
 }
 
+.option{
+  margin: 20px;
+}
+
 .my-name{
   /*text-decoration: none;*/
   margin-left: 10%;
@@ -156,7 +160,7 @@ li.selected {
   color: #C9DFF9;
 }
 
-#portfolio, .footer{
+#projects, .footer{
 	background-color: #F1F8FE;
   /*background-size: 100vw;*/
   padding: 0;
