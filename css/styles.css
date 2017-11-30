@@ -245,6 +245,11 @@ a:hover{
 
 .fa{
   color: grey;
+  transition: color .2s;
+}
+
+.fa:hover{
+  color:#C9DFF9 ;
 }
 
 #contact, #portfolio, .copyright{
@@ -253,4 +258,12 @@ a:hover{
 
 #contact a{
   padding: 20px;
+}
+
+.tooltip > .tooltip-inner{
+  background-color: grey;
+}
+
+.tooltip.bottom > .tooltip-arrow{
+  border-bottom: 5px solid grey;
 }

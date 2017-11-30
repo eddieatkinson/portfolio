@@ -40,12 +40,14 @@ $(document).ready(()=>{
 
 	// Reveal name when scrolled down.
 	$(document).scroll(()=>{
-		if($(document).scrollTop() > $('#about').offset().top - 50){
+		if($(document).scrollTop() > $('#about').offset().top - 42){
 			console.log('Time to disappear!');
-			$('.nav').css("background-color", "rgba(255, 255, 255, 0)").fadeIn();
-			$('.option').css({"border": ".5px solid grey", "background-color": "rgba(255, 255, 255, 0.7)", "border-radius": "15px"}).fadeIn();;
+			$('.nav').css("background-color", "rgba(255, 255, 255, 0)");
+			$('.option').css({"border": ".5px solid grey", "background-color": "rgba(255, 255, 255, 0.7)", "border-radius": "15px"});
+			// $('.nav').animate({backgroundColor: "rgba(255, 255, 255, 0)"});
 		}else{
 			$('.nav').css("background-color", "rgba(255, 255, 255, 0.7)");
+			// $('.nav').animate({backgroundColor: "rgba(255, 255, 255, 0.7)"});
 			$('.option').css({"border": "none", "background-color": "rgba(255, 255, 255, 0)"});
 		}
 		if($(document).scrollTop() > $('#projects').offset().top - 50){
@@ -108,4 +110,13 @@ $(document).ready(()=>{
 		function(){
 			$(this).children('a').fadeOut();
 	});
+
+	$('[data-toggle="tooltip"').tooltip({animation: true});
+
+	// $('.contact-icon').hover(function(){
+	// 	$(this).children('i').css('fa-4x');
+	// },
+	// 	function(){
+	// 		$(this).children('i').removeClass('fa-4x');
+	// });
 });
