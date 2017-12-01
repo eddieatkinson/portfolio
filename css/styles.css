@@ -160,12 +160,26 @@ li.selected {
   color: #C9DFF9;
 }
 
-#projects, .footer{
+
+#projects, .footer, #projects > div{
 	background-color: #F1F8FE;
   /*background-size: 100vw;*/
   padding: 0;
 	/*background-size: contain;*/
 }
+
+.shoebox img, .catch-fred img, .blackjack img, .movie img{
+  max-width: 100%;
+  min-height: 230px;
+}
+
+.other-projects{
+  margin-top: 20px;
+}
+
+/*.shoebox-text{
+  background-color: #F1F8FE;
+}*/
 
 .skills, .skills > div{
   /*display: none;*/
@@ -252,8 +266,12 @@ a:hover{
   color:#C9DFF9 ;
 }
 
-#contact, #portfolio, .copyright{
+#contact, #projects, .copyright{
   padding: 25px;
+}
+
+.copyright{
+  color: grey;
 }
 
 #contact a{

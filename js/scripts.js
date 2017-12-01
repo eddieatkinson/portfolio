@@ -111,7 +111,7 @@ $(document).ready(()=>{
 			$(this).children('a').fadeOut();
 	});
 
-	$('[data-toggle="tooltip"').tooltip({animation: true});
+	$('[data-toggle="tooltip"]').tooltip({animation: true});
 
 	// $('.contact-icon').hover(function(){
 	// 	$(this).children('i').css('fa-4x');
