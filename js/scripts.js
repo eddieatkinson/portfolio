@@ -111,12 +111,13 @@ $(document).ready(()=>{
 			$(this).children('a').fadeOut();
 	});
 
+	$('.hover-to-display').hover(function(){
+		$(this).children('.project-hover').fadeIn();
+		},
+		function(){
+			$(this).children('div').fadeOut();
+	});
+
 	$('[data-toggle="tooltip"]').tooltip({animation: true});
 
-	// $('.contact-icon').hover(function(){
-	// 	$(this).children('i').css('fa-4x');
-	// },
-	// 	function(){
-	// 		$(this).children('i').removeClass('fa-4x');
-	// });
 });
