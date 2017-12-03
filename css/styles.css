@@ -194,12 +194,13 @@ li.selected {
 
 .project-hover{
 	display: none;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	/*background-size: cover;*/
 	/*padding: 0;*/
-	min-height: 210px;
+	min-height: 230px;
+	color: white;
 	/*min-width: 100%;*/
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	/*z-index: 3;*/
 }
 
@@ -290,6 +291,10 @@ a:hover{
 
 .fa:hover{
 	color:#C9DFF9 ;
+}
+
+.footer{
+	margin-top: 10px;
 }
 
 #contact, #projects, .copyright{
