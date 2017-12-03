@@ -173,6 +173,14 @@ li.selected {
 	min-height: 230px;
 }
 
+.shoebox-links a{
+	color: black;
+	border: .5px solid black;
+	margin: 5px 10px 0 0;
+	border-radius: 15px;
+	padding: 7px;
+}
+
 .blackjack{
 	background-image: url('../images/blackjack.png');
 	background-size: cover;
@@ -188,7 +196,7 @@ li.selected {
 }
 
 .other-projects{
-	margin-top: 20px;
+	margin-top: 80px;
 	position: relative;
 }
 
@@ -199,9 +207,26 @@ li.selected {
 	/*padding: 0;*/
 	min-height: 230px;
 	color: white;
+	padding: 25px;
 	/*min-width: 100%;*/
 	/*margin-top: 10px;*/
 	/*z-index: 3;*/
+}
+
+.project-hover a{
+	color: white;
+	border: .5px solid white;
+	margin-top: 5px;
+	border-radius: 15px;
+	padding: 7px;
+}
+
+.project-head{
+	font-size: 20px;
+}
+
+.project-skills-head{
+	font-size: 18px;
 }
 
 /*.shoebox-text{
