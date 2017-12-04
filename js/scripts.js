@@ -41,7 +41,7 @@ $(document).ready(()=>{
 	// Reveal name when scrolled down.
 	$(document).scroll(()=>{
 		if($(document).scrollTop() > $('#about').offset().top - 42){
-			console.log('Time to disappear!');
+			// console.log('Time to disappear!');
 			$('.nav').css("background-color", "rgba(255, 255, 255, 0)");
 			$('.option').css({"border": ".5px solid grey", "background-color": "rgba(255, 255, 255, 0.7)", "border-radius": "15px"});
 			// $('.nav').animate({backgroundColor: "rgba(255, 255, 255, 0)"});
