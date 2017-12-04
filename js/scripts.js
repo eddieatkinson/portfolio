@@ -98,7 +98,7 @@ $(document).ready(()=>{
 	});
 
 	$('#typed-text').typeIt({
-		strings: ["My name is Eddie.", "I'm a Full Stack Web Developer in Atlanta, Georgia.",
+		strings: ["My name is Eddie.", "I'm a Full Stack Web Developer in Atlanta, GA.",
 			"(And I used to study honey bees.)"],
 		speed: 50,
 		autoStart: false
