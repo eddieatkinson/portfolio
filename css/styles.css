@@ -1,3 +1,7 @@
+body{
+	font-family: "Source Sans Pro";
+}
+
 .nav{
 	background-color: rgba(255, 255, 255, 0.7);
 	position: fixed;
@@ -142,7 +146,7 @@ h3.section{
 }
 
 .about{
-	margin-top: 80px;
+	/*margin-top: 80px;*/
 	margin-bottom: 80px;
 }
 
@@ -157,6 +161,7 @@ h3.section{
 }
 
 .menu li {
+	font-size: 16px;
 	display: inline-block;
 	color: gray;
 	padding: 20px;
@@ -249,8 +254,8 @@ li.selected {
 	margin-bottom: 80px;
 }
 
-.tech{
-	/*visibility: hidden;*/
+.tech p{
+	font-size: 16px;
 }
 
 .skills img{
@@ -303,6 +308,7 @@ li.selected {
 .tech a{
 	display: none;
 	color: grey;
+	font-size: 12px;
 	/*border: transparent;*/
 	border: .5px solid transparent;
 	margin-top: 5px;
