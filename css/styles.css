@@ -2,7 +2,8 @@
 	background-color: rgba(255, 255, 255, 0.7);
 	position: fixed;
 	z-index: 2;
-	margin-top: -3px;
+	margin: -3px 0 0 0;
+	padding: 0;
 }
 
 .option{
@@ -140,6 +141,11 @@ h3.section{
 	z-index: 5;
 }
 
+.about{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
 #about {
 	float: right;
 	/*border: 15px solid white;*/
@@ -160,14 +166,6 @@ li.selected {
 	color: #C9DFF9;
 }
 
-
-.footer{
-	background-color: #F1F8FE;
-	/*background-size: 100vw;*/
-	padding: 0;
-	/*background-size: contain;*/
-}
-
 .shoebox img, .catch-fred, .blackjack, .movie{
 	max-width: 100%;
 	min-height: 230px;
@@ -176,6 +174,10 @@ li.selected {
 .project-text{
 	font-size: 18px;
 	padding: 10px;
+}
+
+.shoebox-links{
+	margin-bottom: 10px;
 }
 
 .shoebox-links a{
@@ -203,6 +205,10 @@ li.selected {
 .other-projects{
 	margin-top: 80px;
 	position: relative;
+}
+
+.hover-to-display{
+	margin-bottom: 80px;
 }
 
 .project-hover{
@@ -239,9 +245,8 @@ li.selected {
 	background-color: #F1F8FE;
 }*/
 
-.skills, .skills > div{
-	/*display: none;*/
-	/*visibility: hidden;*/
+.skills{
+	margin-bottom: 80px;
 }
 
 .tech{
@@ -324,12 +329,13 @@ a:hover{
 	color:#C9DFF9 ;
 }
 
-.footer{
+/*.footer{
 	margin-top: 10px;
-}
+}*/
 
 #contact, #projects, .copyright{
 	padding: 25px;
+	/*margin-bottom: 100px;*/
 }
 
 .copyright{
@@ -346,4 +352,13 @@ a:hover{
 
 .tooltip.bottom > .tooltip-arrow{
 	border-bottom: 5px solid grey;
+}
+
+.footer{
+	background-color: #F1F8FE;
+	/*background-size: 100vw;*/
+	width: 100vw;
+	margin: 0 -25px -25px;
+	padding: 0;
+	background-size: cover;
 }
